@@ -1,6 +1,6 @@
 # Falakhan
 
-Falakhan is an S3 file sender. Receives files from specific paths (you define them in config.yml ) and uploads to S3 object storage. You can define as many independent paths and S3 credentials as you want.
+Falakhan is an S3 file sender. Receives files from specific paths (you define them in `config.yml`) and uploads to S3 object storage. You can define as many independent paths and S3 credentials as you want.
 
 ## Build
 
