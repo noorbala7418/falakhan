@@ -1,0 +1,16 @@
+
+listen_port: 0.0.0.0:8000
+
+log_level: info
+
+s3_credentials:
+  - name: global
+    access_key: XXXXXXXXXXXXXXXXXXXXX
+    secret_key: XXXXXXXXXXXXXXXXXXXXXXXXXX
+    endpoint: https://XXXXXXXXXXXXXX
+    region: us-east-1
+    bucket: falakhan
+
+routes:
+  - name: route1
+    s3_config: global
